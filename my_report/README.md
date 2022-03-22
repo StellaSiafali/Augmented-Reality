@@ -1,9 +1,9 @@
 # Lesson: Interaction Design
 
-### First and Last Name: xxx
-### University Registration Number: dpsdxxxxx
-### GitHub Personal Profile: xxx
-### Augmented Reality Personal Repository: xxx
+### First and Last Name: Maria Siafali
+### University Registration Number: dpsd19117
+### GitHub Personal Profile: https://github.com/MariaSiafali117
+### Augmented Reality Personal Repository: https://mariasiafali117.github.io/Augmented-Reality/marker_based/index.html
 
 # Introduction
 
@@ -11,7 +11,7 @@
 
 
 # 1st Deliverable
-
+Για την εργασία αυτή αξιοποίησα τα προτεινόμενα λινκ για να βρω τις κατάλληλες εντολές για την σφαίρα, τον κύλινδρο, το κουτί, το χιόνι και τις φωνητικές εντολές που σταματούν την ροή του χιονιού και την επαναξεκινούν. Κατα την εκτέλεση του προγράματος αντιμετώπισα κάποια προβλήματα. Συγκεκριμένα το χιόνι θα προτειμούσα να είναι λίγο πιο πυκνό αλλά δεν μπόρεσα να το κάνω, παρ'όλα αυτά δουλεύει κανονικά. Επίσης ενώ δεν υπάρχει κάποιο πρόβλημα με τις φωνητικές εντολές στον κώδικα, δεν σταματάει στην εντολή stop και αντίστοιχα δεν ξεκίναει με την εντολή start. Προκειμένου να κάνω την εργασία, κατέβασα την python στον υπολογιστή μου, την ενεργοποίησα μέσω της εφαρμογής PowerShell, βρήκα τον φάκελο με το αρχείο index του marker based το οπόιο το κατέβασα μέσω της εφαρμογήσ github dekstop στον υπολογιστή μου. Έπειτα άνοιξα τον αρχείο με τον κώδικα μέσω της εφαρμογή visual studio code και έκανα τις απαραίτητες αλλαγές. Για να κάνω τις αλλαγές που έπρεπε πειραματήστηκα προκειμένου να βρω τις κατάλληες τιμές που ήθελα. Αφού έτρεξα τον κώδικα μέσω της python και είδα ότι δουλεύει, ανέβασα το αρχείο στο προσωπικό μου λινκ για την εργασία Augment-Reality marker based.
 
 # 2nd Deliverable
 
