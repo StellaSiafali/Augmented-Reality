@@ -1,9 +1,9 @@
 # Lesson: Interaction Design
 
-### First and Last Name: xxx
-### University Registration Number: dpsdxxxxx
-### GitHub Personal Profile: xxx
-### Augmented Reality Personal Repository: xxx
+### First and Last Name: Stella Siafali
+### University Registration Number: dpsd19118
+### GitHub Personal Profile: https://github.com/StellaSiafali
+### Augmented Reality Personal Repository: https://stellasiafali.github.io/Augmented-Reality/
 
 # Introduction
 
@@ -11,7 +11,7 @@
 
 
 # 1st Deliverable
-
+Για την επίτευξη αυτής της εργασίας ακολούθησα τα παρακάτω βήματα. Αρχικά μελέτησα καλά τα δεδομένα για να καταλάβω τι χρειάζεται να κάνω. Έπειτα, με τη βοήθεια των ιστοσελίδων που μας υποδείξατε, βρήκα τον κώδικα έπρεπε να γράψω. Αφού κατέβασα τα αρχεία στον υπολογιστή μου μέσω της εφαρμογής Github desktop, άνοιξα το αρχείο του κώδικα με την εφαρμογή Visual Studio Code και έκανα τις απαραίτητες αλλαγές ώστε να έρθει σε αυτή την εικόνα που βλέπετε στην οθόνη σας. Παράλληλα, για να μπορέσω να δω τα αποτελέσματα του κώδικα που έργαψα, κατέβασα στον υπολογιστή μου την python και την έτρεξα μέσω της εφαρμογής Windows PowerShell. Με αυτόν τον τρόπο μπορούσα να κάνω αλλαγές στον κώδικα. Τέλος, αφού επιβεβαιώθηκα ότι όλα λειτουργούν σωστά δηλαδή: 1.με την ένδηξη του marker based hiro εμφανίνονται ο κύλινδρος, η σφαίρα και ο κύβος καθώς και το χιόνι να πέφτει στην οθόνη, 2 με την φωνιτική εντολή stop σταματάει το χιόνι να πέφτει και με την φωνιτική εντολή start ξεκινάει αντίστοιχα, ανέβασα τον κώδικα στο προσσωπικό μου λινκ της εργασίας στο GitHub με την βοήθεια του GitHub Desktop. Έτσι ανοιγοντας το λινκ μου και πατώντας τον σύδεσμο marker based μπορείτε να δείτε τα αποτελέσματα του κώδικα μου εφόσον εστιάσετε στην κάμερα του υπολογιστή την εικόνα hiro.
 
 # 2nd Deliverable
 
