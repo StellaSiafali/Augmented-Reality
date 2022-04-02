@@ -22,20 +22,20 @@
          <a-entity id="annyang" annyang-speech-recognition></a-entity>
 
         <a-entity id="switch"
-              speech-command__start ="command: show start; type: attribute; attribute: visible; value: true;"
-              speech-command__stop ="command: hide stop; type: attribute; attribute: visible; value: false;">
+              speech-command__start ="command: show start; type: attribute; attribute: visible; targetElement: #snow;  value: true;"
+              speech-command__stop ="command: hide stop; type: attribute; attribute: visible; targetElement: #snow;  value: false;">
             </a-entity>
 
   >
         <a-marker preset="hiro">
 
-            <a-entity position="0 1 -15" particle-system="preset: snow"></a-entity>
+            <a-entity id="snow" position="0 4 -11" particle-system="color: #ffffff"></a-entity>
 
             <a-box position="0 0 0" rotation="0 0 0" color="#ffff99"></a-box>
             <a-sphere position="0.6 0.6 1.1" radius="0.5" color="#ff99cc"></a-sphere>
             <a-cylinder position="1.8 0.3 1.2" radius="0.6" height="1.5" color="#baccde"></a-cylinder>
 
-            </a-marker>
+        </a-marker>
 
             <a-entity camera></a-entity>
 </a-scene>
