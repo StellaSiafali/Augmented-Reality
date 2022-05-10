@@ -19,15 +19,16 @@
                  embedded
                  arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
 
-         <a-entity id="annyang" annyang-speech-recognition></a-entity>
+     
+  >
+        <a-marker preset="hiro">
+
+            <a-entity  id="annyang" annyang-speech-recognition > </a-entity>
 
         <a-entity id="switch"
               speech-command__start ="command: show start; type: attribute; attribute: visible; targetElement: #snow;  value: true;"
               speech-command__stop ="command: hide stop; type: attribute; attribute: visible; targetElement: #snow;  value: false;">
             </a-entity>
-
-  >
-        <a-marker preset="hiro">
 
             <a-entity id="snow" position="0 4 -11" particle-system="color: #ffffff"></a-entity>
 
@@ -36,6 +37,46 @@
             <a-cylinder position="1.8 0.3 1.2" radius="0.6" height="1.5" color="#baccde"></a-cylinder>
 
         </a-marker>
+
+
+        <a-marker preset="mypattern" type="pattern" url="./assets/pattern-dpsd19118.patt">
+            <a-image src="./assets/myself.png" rotation="90 180 0" position="0 0.4 0"> </a-image> 
+            <a-text text="value: Siafali " rotation="270 0 0" position="-0.2 0.4 0.7" color="#084616"></a-text>
+            <a-text text="value: Stella" rotation="270 0 0" position="-0.3 0.9 0.9" color="#479258"></a-text>
+        </a-marker>
+
+        <a-assets>
+            <a-asset-item id="oxygen" src="./assets/animation1.gltf"></a-asset-item> 
+           </a-assets>
+
+           <a-assets>
+            <a-asset-item id="hydrogen" src="./assets/animation2.gltf"></a-asset-item> 
+           </a-assets>
+
+           <a-assets>
+            <a-asset-item id="water" src="./assets/animation3.gltf"></a-asset-item> 
+           </a-assets>
+
+
+           <a-marker id="marker.1" type="pattern" url="./assets/pattern-card-O.patt">
+            <a-image src="assets/card-O.png" rotation="270 0 0"  ></a-image>
+            <a-entity position="0 0.5 0"
+            gltf-model="#oxygen"
+            animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 360 360; loop: true;" >
+
+            </a-entity>
+        </a-marker>
+
+        <a-marker id="marker.2" type="pattern" url="./assets/pattern-card-H.patt">
+            <a-image src="assets/card-H.png" rotation="250 0 0"  ></a-image>
+            <a-entity position="0 0.5 0"
+            gltf-model="#hydrogen"
+            animation__rotate = "property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 0 360; loop: true;" >
+
+            </a-entity>
+        </a-marker>
+
+
 
             <a-entity camera></a-entity>
 </a-scene>
