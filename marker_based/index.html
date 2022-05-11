@@ -12,6 +12,41 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
     <script src="build/aframe-speech-command-component.js"></script> 
     
+    <script>
+        AFRAME.registerComponent("marker-distance", {
+            init: function () {
+                this.oxygen= document.querySelector("#oxygen")
+                this.hydrogen = document.querySelector("#hydrogen")
+                this.water = document.querySelector("#water")
+                this.marker1= document.querySelector("#marker.1")
+                this.marker2= document.querySelector("#marker.2")
+    
+            },
+              tick: function () {
+                var marker1Pos, marker2Pos, markerDistance
+
+                marker1Pos = new THREE.Vector3();
+                this.marker1.object3D.getWorldPosition(marker1Pos);
+        
+                marker2Pos = new THREE.Vector3();
+                this.marker2.object3D.getWorldPosition(marker2Pos);
+
+                markerDistance = marker1Pos.disdtanceTo(marker2Pos);
+
+                if(markerDistance <2 ){
+                    this.oxygen.setAttribute("visible", false)
+                    this.hydrogen.setAttribute("visible", false)
+                    this.water.setAttribute("visible", true)
+                }  else {
+                    this.oxygen.setAttribute("visible", true)
+                    this.hydrogen.setAttribute("visible", true)
+                    this.water.setAttribute("visible", false)
+                }
+
+            }
+        });
+
+        </script>
 
     <body style="margin : 0px; overflow: hidden;">
         <a-scene vr-mode-ui="enabled: false;"
@@ -75,6 +110,7 @@
 
             </a-entity>
         </a-marker>
+
 
 
 
