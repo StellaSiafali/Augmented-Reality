@@ -13,7 +13,7 @@
     <script src="build/aframe-speech-command-component.js"></script> 
     
     <script>
-        AFRAME.registerComponent("marker-distance", {
+        AFRAME.registerComponent("markerdistance", {
             init: function () {
                 this.oxygen= document.querySelector("#oxygen")
                 this.hydrogen = document.querySelector("#hydrogen")
@@ -23,7 +23,7 @@
     
             },
               tick: function () {
-                var marker1Pos, marker2Pos, markerDistance
+                var marker1Pos, marker2Pos, markerdistance
 
                 marker1Pos = new THREE.Vector3();
                 this.marker1.object3D.getWorldPosition(marker1Pos);
@@ -37,7 +37,8 @@
                     this.oxygen.setAttribute("visible", false)
                     this.hydrogen.setAttribute("visible", false)
                     this.water.setAttribute("visible", true)
-                }  else {
+                }  
+                else {
                     this.oxygen.setAttribute("visible", true)
                     this.hydrogen.setAttribute("visible", true)
                     this.water.setAttribute("visible", false)
@@ -111,8 +112,10 @@
             </a-entity>
         </a-marker>
 
+        <a-entity potition="0 0 0" gltf-model="#water"  animation__rotate = "property: rotation; dur: 5000; easing: linear; 
+        dir: normal; from:0 0 0; to: 0 0 360; loop: true;" visible="false"></a-entity>
 
-
+        <a-entity markerdistance> </a-entity>
 
             <a-entity camera></a-entity>
 </a-scene>
